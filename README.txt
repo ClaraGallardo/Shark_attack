@@ -13,7 +13,7 @@ Dividiremos el proyecto en tres partes principales:
 Conocer los lugares donde mas ataques hay, actividades que pueden influir y mortalidad
 La mortalidad esta relacionada con la especie o actividad? y con el sexo, hay mayor supervivenvia?
 Los ataques tienen relación según el momento del día?
-Dependiendo del lugar hay mas ataques?
+Dependiendo del lugar, hay mas ataques?
 
 
 
@@ -27,10 +27,7 @@ Dependiendo del lugar hay mas ataques?
 
 - columnas con más valores nulos:
 
-    - Unnamed: 22               99.996112
-    - Unnamed: 23               99.992225
 
-*Solo borro estas de momento, las otras se las dejo a mi yo del futuro 😏, a lo mejor me pueden valer para algo
 
 - 3 columnas con archivos y enlaces:
 
@@ -58,6 +55,9 @@ Vamos a chequear que verdaderamente no haya y no sea porque el dato tenga alguna
 -Outliner. No tiene sentido buscarlos ya que cada dato es de su padre y su madre 🤦‍♀️
 
 -Limpieza e valores de colmnas, le damos caña al regex 🥊🥊🥊.
+
+Usando value-counts.head() o .tail() podemos apreciar por columnas cuales valores se han repetido mas y podemos darlos por válidos.
+Nos fijamos en los que aparecen una vez ya que tienen mas papeletas para que sean errores o estén mal escritos y haya que arreglarlos.
 
 
 
