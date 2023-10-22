@@ -79,7 +79,7 @@ Area y Location no los voy a corregir, hay muchisimas variaciones y poco tiempo 
 
 Una vez terminada la limpieza se han optimizado los tipos de datos y guardado el fichero en un csv nuevo.
 
-![Alt text](../image/image-1.png)
+![Imagen local](https://scontent.fmad6-1.fna.fbcdn.net/v/t31.18172-8/17834913_1060299644104591_6076313270153662717_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9b3078&_nc_ohc=QV2e9p7K84IAX9IZL01&_nc_ht=scontent.fmad6-1.fna&oh=00_AfClLiIJqJArq0Rhe6s_2u24LMXs1KXD1D3_ZW5Bp_wEEA&oe=655CF1E8)
 
 
 # ANALISIS Y CONLCUISONES
