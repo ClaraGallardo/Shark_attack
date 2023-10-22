@@ -79,8 +79,10 @@ Area y Location no los voy a corregir, hay muchisimas variaciones y poco tiempo 
 
 Una vez terminada la limpieza se han optimizado los tipos de datos y guardado el fichero en un csv nuevo.
 
-![Alt text](image-1.png)
+![Alt text](../image/image-1.png)
 
+
+# ANALISIS Y CONLCUISONES
 
 
 
