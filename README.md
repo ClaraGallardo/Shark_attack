@@ -12,8 +12,7 @@ Dividiremos el proyecto en tres partes principales:
 #OBJETIVOS.
 
 Conocer los lugares donde mas ataques hay, actividades que pueden influir y mortalidad.
-La mortalidad esta relacionada con la especie o actividad? y con el sexo, hay mayor supervivenvia?
-Los ataques tienen relación según el momento del día?
+La mortalidad esta relacionada con el sexo, hay mayor supervivenvia?
 Dependiendo del lugar, hay mas ataques?
 
 
@@ -72,7 +71,9 @@ Para Country, voy a quitar las NORTH, SOUTH, EAST, WEST así lo generalizo un po
 
 Para Type, voy a corregir un poco pero como es mas general para el objetivo mejor usar la colunad de Activity,es mas específico.
 
-Para Year, quito los número raros (0,555,7,...) y lo dejo todo como 0000. 
+Para Year, quito los número raros (0,555,7,...) y lo dejo todo como 0000.
+
+Para Name, agrupamos los mas comunes que no sean nombre como Anonymous.
 
 Area y Location no los voy a corregir, hay muchisimas variaciones y poco tiempo 😭.
 
@@ -82,7 +83,14 @@ Una vez terminada la limpieza se han optimizado los tipos de datos y guardado el
 ![Imagen local](https://scontent.fmad6-1.fna.fbcdn.net/v/t31.18172-8/17834913_1060299644104591_6076313270153662717_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9b3078&_nc_ohc=QV2e9p7K84IAX9IZL01&_nc_ht=scontent.fmad6-1.fna&oh=00_AfClLiIJqJArq0Rhe6s_2u24LMXs1KXD1D3_ZW5Bp_wEEA&oe=655CF1E8)
 
 
-# ANALISIS Y CONLCUISONES
+# ANALISIS Y CONCLUSIONES:
+
+Los objeyivos principales eran conocer los lugares donde mas ataques hay, actividades que pueden influir y mortalidad.
+La mortalidad esta relacionada con el sexo, hay mayor supervivenvia?
+¿En que luegar se producen mas ataques ?
+
+
+
 
 
 
