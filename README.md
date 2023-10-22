@@ -1,9 +1,7 @@
 ![Imagen local](https://www.tonica.la/__export/1671505182718/sites/debate/img/2022/12/19/jaws.jpg_463833556.jpg)
 
 
-## PROYECTO ##
-
-SHARK ATTACK:
+##SHARK ATTACK:##
 
 Dividiremos el proyecto en tres partes principales:
 
@@ -13,7 +11,7 @@ Dividiremos el proyecto en tres partes principales:
 
 #OBJETIVOS.
 
-Conocer los lugares donde mas ataques hay, actividades que pueden influir y mortalidad
+Conocer los lugares donde mas ataques hay, actividades que pueden influir y mortalidad.
 La mortalidad esta relacionada con la especie o actividad? y con el sexo, hay mayor supervivenvia?
 Los ataques tienen relación según el momento del día?
 Dependiendo del lugar, hay mas ataques?
@@ -28,26 +26,27 @@ Dependiendo del lugar, hay mas ataques?
 
 **Observaciones:
 
-- columnas con más valores nulos:
-
-
-
 - 3 columnas con archivos y enlaces:
 
-    - ¿Hay que tener en cuenta? 'pdf', 'href formula', 'href'
+    - ¿Hay que tener en cuenta? 'pdf', 'href formula', 'href'. Como no se pueden borrar las dejare por si me hacen falta
 
 - 'original order' información:
     - revisar si es necesaria la información aportada por la columna. Revisar si debe convertirse en el índice del df.
 
+-Quitamos los espacios finales de 'Sex y Species para poder buscarlo mas comodamente. Fatal (Y/N) lo ponemos solo como Fatality.
 
+-Convertimos Year de float a int
 
 2.LIMPIEZA:
 
 -Valores nulos: 
 
-Las columnas Unnamed: 22 y Unnamed: 23 las borro directamente porque son casi totalmente nulas.
+Las columnas Unnamed: 22 y Unnamed: 23 las paso a 0 directamente porque son casi totalmente nulas.
 
--Valores duplicados
+-Valores duplicados:
+
+Ninguno
+
 -Valores constantes:
 
 No hay😒 pero tiene sentido, hay poco dato numerico
@@ -59,8 +58,31 @@ Vamos a chequear que verdaderamente no haya y no sea porque el dato tenga alguna
 
 -Limpieza e valores de colmnas, le damos caña al regex 🥊🥊🥊.
 
-Usando value-counts.head() o .tail() podemos apreciar por columnas cuales valores se han repetido mas y podemos darlos por válidos.
+Usando value-counts.head() o .tail() o unique() podemos apreciar por columnas cuales valores se han repetido mas y podemos darlos por válidos o corregirlos.
 Nos fijamos en los que aparecen una vez ya que tienen mas papeletas para que sean errores o estén mal escritos y haya que arreglarlos.
+
+Principlalmente nos fijaremos en las columnas que nos interesen para lograr nuestos objetivo.
+
+Para Sex , insertamos en M y F los valores que tienen pinta de pertenecer al mismo sexo unasdo el condicional 'where'
+Hacemos lo mismo con Fatality.
+
+Para Activity, hay que currarselo mas porque tienen muchas discrepancia pero hayq eu tener en cuenta que la misma actividad de expresa de diferentes maneras asi que las filtramos con una funcion usando regex para hayar los patrones y añadirlos a un diccionario que luego aplicaremos dentro de la columna . Currao currao 💪💪💪
+
+Para Country, voy a quitar las NORTH, SOUTH, EAST, WEST así lo generalizo un poco. Con .unique() veo que hay espacios al principio de los paises,los quito. Pongo todo en mayúsculas y quito ? por aprox.
+
+Para Type, voy a corregir un poco pero como es mas general para el objetivo mejor usar la colunad de Activity,es mas específico.
+
+Para Year, quito los número raros (0,555,7,...) y lo dejo todo como 0000. 
+
+Area y Location no los voy a corregir, hay muchisimas variaciones y poco tiempo 😭.
+
+
+Una vez terminada la limpieza se han optimizado los tipos de datos y guardado el fichero en un csv nuevo.
+
+![Alt text](image-1.png)
+
+
+
 
 
 
