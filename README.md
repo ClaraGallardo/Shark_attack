@@ -83,11 +83,31 @@ Una vez terminada la limpieza se han optimizado los tipos de datos y guardado el
 ![Imagen local](https://scontent.fmad6-1.fna.fbcdn.net/v/t31.18172-8/17834913_1060299644104591_6076313270153662717_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9b3078&_nc_ohc=QV2e9p7K84IAX9IZL01&_nc_ht=scontent.fmad6-1.fna&oh=00_AfClLiIJqJArq0Rhe6s_2u24LMXs1KXD1D3_ZW5Bp_wEEA&oe=655CF1E8)
 
 
-# ANALISIS Y CONCLUSIONES:
+# ANALISIS Y CONCLUSIONES: 🦈🦈🦈
 
-Los objeyivos principales eran conocer los lugares donde mas ataques hay, actividades que pueden influir y mortalidad.
+**Vease limpieza.ipynb**
+
+Los objetivos principales eran conocer los lugares donde mas ataques hay, actividades que pueden influir y mortalidad.
 La mortalidad esta relacionada con el sexo, hay mayor supervivenvia?
 ¿En que luegar se producen mas ataques ?
+
+## CONCLUISIONES:
+
+1º) De todos los ataques registrados el 35% se produjo en USA, seguido de AUSTRALIA con un 21%
+
+2º) Del total de actividades realizadas durante los ataques, la que tiene mayor incidencia es SWIMING con un 21.1% seguida de BORD ACTIVITIES y FISHING
+
+3º)La mortalidad durante los ataques es de un 22%, siendo el porcentaje de supervivientes un 68.24%
+
+4º) Además, en relación a los ataques durante SWIMING el 35 % resulto mortal mientras que FISHING y BOARD ACTIVITIES están alrededor del 10%. Por lo que deducimos que si estas sobre el agua es mas probable que sobrevivas.
+
+5º)Por curiosidad quise saber la supervivencia que tenian las víctimas dependiendo del sexo. De los ataques realizados, un 80% fueron a hombres y de estos, el 80% sobrevivieron,mientras que a mujeres del 10% que se realizan el porcentaje de supervivencia es de un 10%¡¡
+
+
+![Alt Text](https://www.youtube.com/watch?v=gmr4w6pghgw&t=21s&ab_channel=StoryfulViral)
+
+
+
 
 
 
