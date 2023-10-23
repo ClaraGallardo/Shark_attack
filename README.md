@@ -106,6 +106,8 @@ La mortalidad esta relacionada con el sexo, hay mayor supervivenvia?
 
 ![Imagen local](https://scubaworld.com.au/wp-content/uploads/2016/04/Whale-Shark-2.jpg)
 
+![Imagen local](..\image\giphy.gif)
+
 
 
 
