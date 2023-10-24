@@ -104,20 +104,4 @@ La mortalidad esta relacionada con el sexo, hay mayor supervivenvia?
 5º)Por curiosidad quise saber la supervivencia que tenian las víctimas dependiendo del sexo. De los ataques realizados, un 80% fueron a hombres y de estos, el 80% sobrevivieron,mientras que a mujeres del 10% que se realizan el porcentaje de supervivencia es de un 10%¡¡
 
 
-![Imagen local](https://giphy.com/gifs/storyful-shark-week-5tSRfHZRdsVUIPwQwF?utm_source=media-link&utm_medium=landing&utm_campaign=Media%20Links&utm_term=)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Imagen local](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buzzfeed.com%2Flaraparker%2Fshark-facts&psig=AOvVaw1c1FTEQUklg3-F5a_JpdLi&ust=1698217761691000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjWpKSQjoIDFQAAAAAdAAAAABAF)
